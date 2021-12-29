@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gsimm\\source\\repos\\Recipes\\Recipes\\Recipes.csproj": {}
+    "C:\\Users\\gsimm\\OneDrive\\Documents\\GitHub\\gsimm24.github.io\\Recipes\\Recipes\\Recipes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gsimm\\source\\repos\\Recipes\\Recipes\\Recipes.csproj": {
+    "C:\\Users\\gsimm\\OneDrive\\Documents\\GitHub\\gsimm24.github.io\\Recipes\\Recipes\\Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gsimm\\source\\repos\\Recipes\\Recipes\\Recipes.csproj",
+        "projectUniqueName": "C:\\Users\\gsimm\\OneDrive\\Documents\\GitHub\\gsimm24.github.io\\Recipes\\Recipes\\Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "C:\\Users\\gsimm\\source\\repos\\Recipes\\Recipes\\Recipes.csproj",
+        "projectPath": "C:\\Users\\gsimm\\OneDrive\\Documents\\GitHub\\gsimm24.github.io\\Recipes\\Recipes\\Recipes.csproj",
         "packagesPath": "C:\\Users\\gsimm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gsimm\\source\\repos\\Recipes\\Recipes\\obj\\",
+        "outputPath": "C:\\Users\\gsimm\\OneDrive\\Documents\\GitHub\\gsimm24.github.io\\Recipes\\Recipes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gsimm\\AppData\\Roaming\\NuGet\\NuGet.Config",
