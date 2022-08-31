@@ -2,6 +2,18 @@
 	body{
 		background: grey;
 	}
+.center{
+	margin-top:50px;
+	text-align:center;
+}
+.pretty_btn{
+	font-size: 20px;
+	background: lightgreen;
+}
+#random{
+	margin-top:30px;
+	font-size: 20px;
+}
 </style>
 
 
@@ -15,19 +27,22 @@
     <script src="js/FileSaver.js"></script>
 
     <script>
-	  let max = 100;
+	let recipes = ["order in!", "spaghetti and meatballs", "Chicken and Rice"];
+	  let max = recipes.length - 1;
         function randomize() {
-           var tmp = Math.random() * max;
-		document.getElementById('random').innerHTML = tmp.toFixed(0);
+           var tmp = (Math.random() * max).toFixed(0);
+		document.getElementById('random').innerHTML = recipes[tmp];
         }
 		
     </script>
 </head>
 <body>
+<div class="center">
+	<h1>Recipe Randomizer</h1>
+	<button class="pretty_btn" type="button" onclick="randomize();">Randomize!!!</button>
+	<br>
+	<span id="random"></span>
+</div>
 
-<h1>Recipe Randomizer</h1>
-<button type="button" onclick="randomize();">Randomize!!!</button>
-<br>
-<span id="random"></span>
 </body>
 </html>
