@@ -1,3 +1,33 @@
+<style type="text/css">
+	body{
+		background: grey;
+	}
+</style>
 
-<h1>Hello World</h1>
 
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gsimm24.github.io</title>
+    <script src="js/FileSaver.js"></script>
+
+    <script>
+	  let max = 100;
+        function randomize() {
+           var tmp = Math.random() * max;
+		document.getElementById('random').innerHTML = tmp.toFixed(0);
+        }
+		
+    </script>
+</head>
+<body>
+
+<h1>Recipe Randomizer</h1>
+<button type="button" onclick="randomize();">Randomize!!!</button>
+<br>
+<span id="random"></span>
+</body>
+</html>
